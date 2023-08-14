@@ -1,0 +1,29 @@
+
+.mainmenu {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: space-between;
+  padding: 20px 18px;
+}
+
+.mainmenu ul li {
+  color: #fff;
+  display: inline;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.logo {
+  color: #fff;
+}
+
+.mainmenu ul a{
+  color: #fff;
+  display: inline;
+  margin: 0 10px;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+}

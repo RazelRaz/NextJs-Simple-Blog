@@ -1,0 +1,35 @@
+.heroArea {
+    background-color: pink;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heroArea h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.heroArea p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.heroArea a {
+    padding: 15px 37px;
+    font-size: 17px;
+    background: black;
+    color: #fff;
+    border: navajowhite;
+    border-radius: 27px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
