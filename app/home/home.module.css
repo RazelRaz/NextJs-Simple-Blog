@@ -9,6 +9,14 @@
     flex-direction: column;
 }
 
+
+.heroArea img{
+    width: 250px;
+    height: 250px;
+    border-radius: 160px;
+    border: 6px solid #fff;
+}
+
 .heroArea h1{
     font-size: 50px;
     font-weight: bold;
@@ -33,3 +41,31 @@
     text-decoration: none;
 }
 
+
+.socialM  {
+    margin-top:20px
+}
+
+
+.socialM img {
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin: 0 6px;
+}
+
+/************************************************** 
+   Media Queries - Small Screens 
+***************************************************/
+@media screen and (max-width: 600px) {
+    .heroArea {
+        padding-top: 120px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .heroArea h1{
+        text-align:center;
+    }
+
+
+}

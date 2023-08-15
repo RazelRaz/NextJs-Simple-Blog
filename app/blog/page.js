@@ -16,7 +16,7 @@ const BlogPage = () => {
                     {blogData.map((post) => (
                         <li key={post.id} >
                             <Link href={`/blog/${post.id}`}>
-                                {post.title}
+                                {post.id}.{post.title}
                                 <span>{post.date}</span>
                             </Link>
                         </li>
