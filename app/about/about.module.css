@@ -1,3 +1,7 @@
 .aboutArea {
     padding: 20px;
 }
+
+.aboutArea h1{
+    text-decoration: underline;
+}

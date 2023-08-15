@@ -1,21 +1,23 @@
 'use client'
 
 import Link from 'next/link';
-import blogData from '../../data/blogData.json'
+import blogData from '../../data/blogData.json';
+import styles from './blog.module.css'
 
 const BlogPage = () => {
 
 
 
     return (
-        <div>
+        <div className={styles.blogArea}>
             <h1>Blog Page</h1>
             <div>
                 <ul>
                     {blogData.map((post) => (
-                        <li key={post.id}>
+                        <li key={post.id} >
                             <Link href={`/blog/${post.id}`}>
-                            {post.title}
+                                {post.title}
+                                <span>{post.date}</span>
                             </Link>
                         </li>
                     ))}

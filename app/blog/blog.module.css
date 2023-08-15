@@ -1,0 +1,37 @@
+.blogArea {
+    padding: 20px;
+
+}
+
+.blogArea h1 {
+    text-decoration: underline;
+}
+
+.blogArea li {
+    list-style: none;
+    text-decoration: none;
+    border-bottom: 1px solid #afa6a6;
+}
+
+.blogArea li a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 34px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogArea li a span{
+    font-size:12px;
+}
+
+.blogArea ul {
+    display: flex;
+    vertical-align: middle;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 30px;
+    background: #ccc;
+    padding: 15px;
+}
